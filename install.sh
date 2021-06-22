@@ -33,7 +33,7 @@ apt update
 apt-get install -y libatlas-base-dev libportaudio2 python3-pip git python3-opencv
 echo "[+] Git Cloning Aurora base"
 echo "------------------------------"
-git clone https://github.com/AndrewMohawk/Aurora.git .
+git clone -b rpi_ws2812x_lib https://github.com/AndrewMohawk/Aurora.git .
 cp config.ini.bak config.ini
 echo "[+] Installing Python Requirements"
 echo "------------------------------"
